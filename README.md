@@ -14,3 +14,13 @@ npx tsc --init
 # compile what's in config file
 npx tsc
 ```
+
+## webpack
+
+```sh
+# convert typescript to javascript
+npx webpack
+
+# continously convert typescript to javascript
+npx webpack --watch
+```
