@@ -1,14 +1,16 @@
 # playing with typescript
 
-## compile typescript into javascript
-
 ```sh
 npm install
-npx tsc src/index.ts
 ```
 
-## create typescript config file
-
 ```sh
+# compile typescript into javascript without config file
+npx tsc src/index.ts
+
+# create typescript config file
 npx tsc --init
+
+# compile what's in config file
+npx tsc
 ```
