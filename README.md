@@ -24,7 +24,11 @@ npm install --save-dev webpack webpack-cli typescript ts-loader
 npx webpack
 
 # continously convert typescript to javascript
-npx webpack --watch
+npx webpack watch
+
+# start development server and watch changes
+npm install --save-dev webpack-dev-server
+npx webpack serve
 ```
 
 https://www.fatalerrors.org/a/typescript-super-detailed-introduction.html
