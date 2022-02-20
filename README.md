@@ -29,6 +29,9 @@ npx webpack watch
 # start development server and watch changes
 npm install --save-dev webpack-dev-server
 npx webpack serve
+
+# open browser
+localhost
 ```
 
 https://www.fatalerrors.org/a/typescript-super-detailed-introduction.html
