@@ -1,6 +1,4 @@
-function hello(message: string) {
-    console.log(`hello ${message}`);
-}
+import {hello} from "./module";
 
-hello("david");
+hello("8ctopus", 10);
 hello(123);
