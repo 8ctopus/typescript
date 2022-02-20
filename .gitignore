@@ -4,5 +4,8 @@
 # ignore all javascript files
 /src/*.js
 
+# dist
+/dist/
+
 # others
 /*.sublime-workspace
