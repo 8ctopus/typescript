@@ -18,9 +18,13 @@ npx tsc
 ## more advanced using webpack
 
 ```sh
+npm install --save-dev webpack webpack-cli typescript ts-loader
+
 # convert typescript to javascript
 npx webpack
 
 # continously convert typescript to javascript
 npx webpack --watch
 ```
+
+https://www.fatalerrors.org/a/typescript-super-detailed-introduction.html
